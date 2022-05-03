@@ -20,7 +20,7 @@ var routes = new List<RouteConfig>
 var servicesUrls = new Dictionary<ServiceType, string> { 
     { ServiceType.HELLO, "https://localhost:10001" },
     { ServiceType.USERS, "https://localhost:20000" }
-};
+} as IReadOnlyDictionary<ServiceType, string>;
 services.AddReverseProxy()
     .LoadFromMemory(routes, servicesUrls);
 ```
