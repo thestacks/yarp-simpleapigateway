@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <Title>theStacks.Yarp.SimpleApiGateway</Title>
+        <Authors>theStacks</Authors>
+        <Description>SimpleApiGateway extensions for the Yarp package. Use case: API Gateway/BFF pattern</Description>
+        <PackageProjectUrl>https://github.com/thestacks/yarp-simpleapigateway</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/thestacks/yarp-simpleapigateway</RepositoryUrl>
+        <RepositoryType>GitHub</RepositoryType>
+        <Company>theStacks</Company>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Yarp.ReverseProxy" Version="1.1.0" />
+    </ItemGroup>
+
+</Project>
